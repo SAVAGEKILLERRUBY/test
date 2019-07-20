@@ -1,0 +1,85 @@
+.main-header {
+    background:url(../img/background.jpg);
+    background-size: cover;
+    min-height: 650px;
+    background-position: center;
+    color: white;
+}
+ .active-link{
+    color:white(122,81,176,0.7);
+    font-weight: bold;
+    border: 5px solid rgba(122,81,176,0.7);
+    border-radius: 30px;
+    background: rgba(122,81,176,0.7);
+}.main-header .showcase{
+    padding-top: 100px;
+}
+.section-developers{
+    position: relative;
+    background: url(../img/code.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top: #333 solid 5px;
+    border-bottom: #333 solid 5px;
+    min-height: 180px;
+}
+.primary-overlay{
+    background: rgba(122,81,176,0.7);
+    position: absolute;
+    top: 0;
+   height: 100%;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.section-podcast{
+    position: relative;
+    background: url(../img/circuit.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 180px;
+    border-top: #333 solid 5px;
+    border-bottom: #333 solid 5px;
+}
+.section-podcast a{
+    margin-top: 30px;
+}
+.section-podcast .primary-overlay{
+    background: rgba(122,81,176,0.9)
+}
+.carousel-item p{
+    font-size: 20px !important;
+}
+.main-header-inner{
+    background:url(../img/background.jpg);
+    background-size: cover;
+    min-height: 350px;
+    background-position: center;
+    color: white;
+
+}
+.main-header-inner .showcase{
+    padding-top: 50px;
+}
+.tabs .indicator{
+    background: rgba(122,81,176,0.9)
+}
+.test{
+    border: 10px solid rgba(122,81,176,0.9);
+    border-radius: 15px;
+}
+.btn-extend{
+    display:block;
+    width:100%;
+}
+.card-panel{
+    background: url(../img/background.jpg)
+}
+
+
+@media (max-width:500px){
+    .section-developers,
+    .section-podcast{
+        min-height: 240px;
+    }
+}
